@@ -1,0 +1,67 @@
+.titlu{
+    font-size: 45px;
+    font-family: sans-serif;
+    text-align: center;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.card{
+    border: 2px solid black;
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+}
+.pokemon{
+    width: 400px;
+    height: 400px;
+}
+p{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.arrowLeft{
+    width: 100px;
+    height:90px;
+    cursor: pointer;
+}
+.arrowRight{
+    width: 100px;
+    height:90px;
+    transform:rotate(180deg);
+    cursor: pointer;
+}
+.arrows{
+display: flex;
+gap: 460px;
+position: absolute;
+}
+.input{
+    margin-top: 30px;
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: black;
+}
+.search{
+    margin-left: 30px;
+    width: 80px;
+    height: 45px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+    position: absolute;
+    top: 777px;
+    left: 600px;
+    cursor: pointer;
+}
